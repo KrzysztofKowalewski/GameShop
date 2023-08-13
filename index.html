@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styl.css">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Epicka para</title>
+    <link rel="shortcut icon" href="C:\Users\48506\Desktop\sklep_growy\348356494_1615562535592918_4188325244650051626_n.png">
+<body>
+    <div id="navbar">
+      <img id="ikona" src="C:\Users\48506\Desktop\sklep_growy\348356494_1615562535592918_4188325244650051626_n.png" alt="ikona">
+      <tytul>Epicka Para</tytul>
+      <dostawa>Dostawa do domu już wkrótce!</dostawa>
+      <input id="wyszukiwarka" type="text" placeholder="Wpisz tytuł">
+      <button onclick="wyszukaj()" id="szukaj">Szukaj</button>
+    </div>
+    <div id="koszyk">
+      <komunikat>Twój koszyk: </komunikat>
+      <div id="koszyczek">
+
+      </div>
+      <br>
+
+    </div>
+    <oferta id="oferta">Nasza oferta gier</oferta> <br>
+    <div id="gry">
+      <div id="gra"> 
+        <tytulgry>Breaking Lego</tytulgry>
+        <br>
+        <br>
+        <img src="lego.jpg" alt="lego"> 
+        <br>
+        <cena>Cena: 42,69 zł </cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Breaking lego', '42,69 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Thief simulator</tytulgry>
+        <br>
+        <br>
+        <img src="fifa23.png" alt="fifa">
+        <br>
+        <cena>Cena: 249,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Thief simulator', '249,99 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Minecraft 2</tytulgry>
+        <br>
+        <br>
+        <img src="terraria.jpg" alt="terraria">
+        <br>
+        <cena>Cena: 100 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Minecraft 2', '100 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Cyberpunk 2077</tytulgry>
+        <br>
+        <br>
+        <img src="cajberpank.jpg" alt="cajberpank">
+        <br>
+        <cena>Cena: 199,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Cyberpunk 2077', '199,99 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Martwa Wyspa 2</tytulgry>
+        <br>
+        <br>
+        <img src="EGS_DeadIsland2_DeepSilverDambusterStudios_S2_1200x1600-efc5201842cf642eb45f73227cd0789b.jpg" alt="deadisland">
+        <br>
+        <cena>Cena: 349,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Martwa Wyspa 2', '349,99 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Umierające światło</tytulgry>
+        <br>
+        <br>
+        <img src="dying.jpg" alt="swiatlo">
+        <br>
+        <cena>Cena: 49,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Umierające światło', '49,99 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Borderlands 2</tytulgry>
+        <br>
+        <br>
+        <img src="border.jpg" alt="border">
+        <br>
+        <cena>Cena: 99,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Borderlands 2', '99,99 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Stardew Valley</tytulgry>
+        <br>
+        <br>
+        <img src="Stardew-Vallley-10-tips.jpg" alt="stardew">
+        <br>
+        <cena>Cena: 150 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Stardew Valley', '150 zł')">Dodaj do koszyka</kup>
+      </div>
+      <div id="gra"> 
+        <tytulgry>Uciekinierzy</tytulgry>
+        <br>
+        <br>
+        <img src="TheEscapists_Newsfeed Post-2560x1440-587a8d844cab1246b3253f2f98fab8a7.jpg" alt="escapists">
+        <br>
+        <cena>Cena: 19,99 zł</cena>
+        <br>
+        <br>
+        <kup onclick="dodajdokoszyka('Uciekinierzy', '19,99 zł')">Dodaj do koszyka</kup>
+      </div>
+    </div>
+    <script src="skrypt.js"></script>
+</body>
+</html>
